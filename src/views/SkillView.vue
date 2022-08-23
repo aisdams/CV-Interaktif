@@ -76,6 +76,7 @@
 
 <script>
 import "../about.css";
+import "../style.css";
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
 

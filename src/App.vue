@@ -8,10 +8,10 @@
     <nav class="navnya">
       <ul>
         <li class="logonya"><a href="">Aisyah<span style="color: blue;">Ramadhani</span></a></li>
-        <li class="menu-center"><a href="">Personal</a></li>
+        <li class="menu-center"><RouterLink to="/">Personal</RouterLink></li>
         <li class="menu-center"><RouterLink to="/skill">Skill</RouterLink></li>
         <li class="menu-center"><a href="@/assets/Cv magang Aisyah Ramadhani new.pdf" download>CV</a></li>
-        <li><a href=""><button><RouterLink to="/contactus">Contact us</RouterLink></button></a></li>
+        <li><button><RouterLink to="/contactus" style="text-decoration: none; color: #fff;">Contact us</RouterLink></button></li>
       </ul>
   </nav>
   </transition>

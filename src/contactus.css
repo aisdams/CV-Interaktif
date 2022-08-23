@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@100;300;400&family=Montagu+Slab:opsz,wght@16..144,100;16..144,300;16..144,400;16..144,500;16..144,600&display=swap');
+#app { height: 100% }
+html,
+body {
+  position: relative;
+}
+:root {
+  --fontes: 'Montagu Slab', serif;
+  --font-biasa: 'Manrope', sans-serif;
+}
+.sosialmedia-footer img{
+    border: 1px solid rgba(255, 0, 0, 0.699);
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 20%;
+  }
+  .footer h1 {
+    font-family: var(--font-biasa);
+    font-weight: 100;
+  }
+.footer {
+    position: relative;
+    left: 50%;
+    top: 5rem;
+    text-align: center;
+}
