@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@100;300;400&family=Montagu+Slab:opsz,wght@16..144,100;16..144,300;16..144,400;16..144,500;16..144,600&display=swap');
+#app { height: 100% }
+html,
+body {
+  position: relative;
+}
+:root {
+  --fontes: 'Montagu Slab', serif;
+  --font-biasa: 'Manrope', sans-serif;
+}
+
+header {
+  margin-top: 3rem;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .6s;
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    left: -1rem;
+    top: 0;
+    padding: 10px 50px;
+    z-index: 99;
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+}
+
+nav ul li.logonya a {
+    position: relative;
+    font-size: 25px;
+    margin: 0 20px;
+    left: 1rem;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+li.menu-center a{
+  position: relative;
+  margin: 0 20px;
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+  letter-spacing: 0.15em;
+  display: flex;
+  left: 15rem;
+  top: 10px;
+}
+
+nav ul li button {
+  border: none;
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgb(255, 64, 96);
+  left: 35rem;
+  top: 10px;
+}
+
+nav ul li a button{
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a button:hover{
+  border: 1px solid #333;
+  background-color: transparent;
+  color: #333;
+  transition: .6s;
+  cursor: pointer;
+}
+
+.square {
+  position: relative;
+  top: -1rem;
+  left: 3rem;
+}
+
+.square h4 {
+  font-family: var(--font-biasa);
+  font-weight: 400;
+  color: rgb(255, 64, 96);
+}
+
+.square h1{
+  font-family: var(--fontes);
+  font-weight: 600;
+  width: 65%;
+  margin-bottom: 1rem;
+}
+
+.square p {
+  font-family: var(--font-biasa);
+  font-weight: 100;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+.circlenya {
+  background-image: linear-gradient(to bottom left, rgba(255, 0, 0, 0.699), rgba(255, 255, 0, 0.671));
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  left: 34%;
+  top: 8rem;
+}
+
+button.btn-hire {
+  border: none;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(36, 94, 255);
+  border-radius: 40px;
+  margin-bottom: 1rem;
+}
+
+.sosialmedia a{
+  position: relative;
+  top: 1rem;
+  padding-left: 10px;
+}
+.sosialmedia a img {
+  border: 1px solid rgba(255, 0, 0, 0.699);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+html,
+body {
+  position: relative;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 480px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
