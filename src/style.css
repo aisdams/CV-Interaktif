@@ -22,7 +22,7 @@ nav{
     transition: .6s;
     -webkit-backdrop-filter: blur(18px);
     backdrop-filter: blur(18px);
-    left: -4rem;
+    left: -1rem;
     top: 0;
     padding: 10px 50px;
     z-index: 99;
